@@ -55,10 +55,9 @@ print(მამა+love)
 
 
 
-name1= "Zuka"     
+name= "Zuka"     
 user-name = "Ana" 
-"for" = 10                   
-class = "Math"             
+"for" = 10                              
 print("userage") 
 age = 25
 age = age + "years"          
