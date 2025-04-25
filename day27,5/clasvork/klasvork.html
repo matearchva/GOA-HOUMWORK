@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ჩემი საყვარელი რეცეპტები</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+      padding: 20px;
+    }header, footer {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      margin: 15px 0;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #e0e0e0;
+    }
+    form {
+      margin-top: 20px;
+      background-color: #f0f0f0;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ჩემი საყვარელი რეცეპტები</h1>
+  </header>
+
+  <nav>
+    <a href="#home">მთავარი</a>
+    <a href="#login">ავტორიზაცია</a>
+    <a href="#video">ვიდეო</a>
+    <a href="#audio">აუდიო</a>
+    <a href="#table">ინგრედიენტები</a>
+  </nav>
+
+  <div class="container">
+    <section id="home">
+      <h2>კეთილი იყოს თქვენი მობრძანება</h2>
+      <p>აქ ნახავთ ჩემს საყვარელ რეცეპტებს, ვიდეოებს და აუდიო გზამკვლევებს!</p>
+    </section>
+
+    <section id="login">
+      <h2>ავტორიზაცია</h2>
+      <form onsubmit="login(event)">
+        <label>მომხმარებელი:</label>
+        <input type="text" required>
+        <label>პაროლი:</label>
+        <input type="password" required>
+        <input type="submit" value="შესვლა">
+      </form>
+    </section>
+
+    <section id="video">
+      <h2>ვიდეო: ხინკლის მომზადება</h2>
+      <video width="100%" controls><tr>
+        <td>მარილი, პილპილი</td>
+        <td>გემოვნებით</td>
+      </tr>
+    </table>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2025 ჩემი რეცეპტების საიტი</p>
+</footer>
+
+<script>
+  function login(event) {
+    event.preventDefault();
+    alert("შესვლა წარმატებით განხორციელდა!");
+  }
+</script>
+</body>
